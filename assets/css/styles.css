@@ -18,5 +18,12 @@ body {
 
 #headerTxt-row {
     text-align: center;
-    text-color: white;
+    color: white;
+    height: 160px;
+    size: 40px;
+}
+
+
+#charSelect {
+    height: 160px;
 }
