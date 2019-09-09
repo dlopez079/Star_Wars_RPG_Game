@@ -12,6 +12,7 @@
     <script src="assets/javascript/game.js"></script>
 </head>
 <body>
+
     <div class="container">
         <!-- Create Row 1: This row is for the title of the game. -->
         <div id=header-row class="row">
@@ -20,21 +21,23 @@
 
         <!-- Create Row 2: This for is to inform the player to select a character-->
         <div id="headerTxt-row" class="row">
-            <p>Star Wars RPG Game</p>
-            <p>Choose your character player 1!</p>
+            <p>Star Wars RPG Game!</p>
+        </br>
+            <p>Please select your character below!</p>
         </div>
 
         <!-- Create Row 3:  This row is for the character selection-->
-        <div class="row">
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
-            <div class="col">col</div>
+        <div id="charSelect" class="row">
+            <div id="fin" class="col"><img src="https://media.giphy.com/media/3ornkd1yQFrDGrTDCU/200.gif#3-grid2" width="248" height="140" alt="  GIF"></div>
+            <div id="luke" class="col"><img src="https://media.giphy.com/media/3owzVYjZSzuFivWpHi/200.gif#1-grid2" width="248" height="140" alt="  GIF"></div>
+            <div id="kylo" class="col"><img src="https://media.giphy.com/media/xUPGGnmeqwH1YoBV6g/200.gif#2-grid2" width="248" height="140" alt="  GIF"></div>
+            <div id="palp" class="col"><img src="https://media.giphy.com/media/3ornk7nts29Am5LIfm/200.gif#16-grid2" width="248" height="140" alt="  GIF"></div>
         </div>
         
         <!-- Create Row 4: This is for the character battle zone -->
-        <div class="row">
+        <div class="row" id="battle-row">
             <div class="col">col</div>
+            <div class="col">vs</div>
             <div class="col">col</div>
             <div class="w-100"></div>
             <div class="col">col</div>

@@ -5,25 +5,45 @@
     margin: 0px auto;
     color: white;
     text-shadow: 2px 2px black;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px 3px white;
 }
 
 .container {
-    width: 1070px;
+    width: 11112px;
+    color: white;
+    text-align: center;
 }
 
 body {
-    background-color: black;
+    background-image: url("https://amp.businessinsider.com/images/599ada89b0e0b520008b6383-1136-852.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #headerTxt-row {
-    text-align: center;
-    color: white;
     height: 160px;
     size: 40px;
+    display: grid
+    
+
 }
 
-
-#charSelect {
-    height: 160px;
+#headerTxt {
+    font-size: 30px;
 }
+
+#battle-row {
+    height: 340px;
+    font-size: 30px;
+    padding-top: 
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
